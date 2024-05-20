@@ -1,5 +1,4 @@
 import React from 'react'
-import { ModeToggle } from './ThemeToggler'
 import { ShuffleIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
 
 const Navbar = () => {
@@ -10,8 +9,7 @@ const Navbar = () => {
             </div>
             <div className='bg-blue-200 flex justify-around gap-8'>
                 <ShuffleIcon className="h-[2.8rem] w-[1.8rem]" />
-                <GitHubLogoIcon className="h-[2.8rem] w-[1.8rem]" />
-                <ModeToggle />
+                <GitHubLogoIcon href='https://github.com/YeswanthRajakumarr/quotes-from-anime' className="h-[2.8rem] w-[1.8rem]" />
             </div>
         </div>
     )

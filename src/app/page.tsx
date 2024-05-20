@@ -5,7 +5,7 @@ import ReactionCard from "@/components/reactions/ReactionCard";
 export default function Home() {
   return (
     <>
-      <QuotesCard></QuotesCard>
+      <QuotesCard/>
       <ReactionCard />
       <QuotesSubmission />
     </>
